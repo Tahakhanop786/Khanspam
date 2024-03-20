@@ -1,17 +1,20 @@
+Here's a revised version with simplified formatting:
+
+```python
 from telethon import version, events, Button
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline("• 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 •", data="help_back")
+        Button.inline("COMMNDS", data="help_back")
     ],
     [
-        Button.url("•  𝗖𝗛𝗔𝗡𝗡𝗘𝗟 •", "https://t.me/BWANDARLOK"),
-        Button.url("• 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 •", "https://t.me/PRADHAN474")
+        Button.url("CHANNEL", "https://t.me/BWANDARLOK"),
+        Button.url("SUPPORT", "https://t.me/PRADHAN474")
     ],
     [
-        Button.url("• 𝗥𝗘𝗣𝗢 •", "https://github.com/PRADHAN474/ALSPSM")
+        Button.url("REPO", "https://github.com/PRADHAN474/ALSPSM")
     ]
 ]
 
@@ -31,15 +34,11 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = (
-            "╔═════════════════════╗\n"
-            "║ ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id}) ║\n"
-            "║━━━━━━━━━━━━━━━━━━━║\n"
-            "║ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [𝗢𝗫𝗬𝗚𝗘𝗡](https://t.me/PRADHAN474) ║\n"
-            "║━━━━━━━━━━━━━━━━━━━║\n"
-            "║ xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ : M3.3 ║\n"
-            "║ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.11.3 ║\n"
-            "║ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : {version} ║\n"
-            "╚═════════════════════╝"
+            f"Hey [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nI am [{bot_name}](tg://user?id={bot_id})\n"
+            f"My developer: [𝗢𝗫𝗬𝗚𝗘𝗡](https://t.me/PRADHAN474)\n"
+            f"Xbots version: M3.3\n"
+            f"Python version: 3.11.3\n"
+            f"Telethon version: {version}\n"
         )
         await event.client.send_file(
                     event.chat_id,
@@ -47,3 +46,4 @@ async def start(event):
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
+```
