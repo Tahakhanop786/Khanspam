@@ -43,7 +43,7 @@ async def start(event):
         )
         await event.client.send_file(
                     event.chat_id,
-                    "https://te.legra.ph/file/7bc5551374ee010ba57d2.jpg",
+                    "https://telegra.ph/file/4817f954943e137e0413c.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
