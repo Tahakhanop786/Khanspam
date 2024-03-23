@@ -36,10 +36,10 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **🇲𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [⛈🇴𝐗𝐘𝐆𝐄𝐍⛈](https://t.me/OXEGN) **\n\n"
-        TEXT += f"» **🇧𝐎𝐓𝐒 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `M3.3`\n"
-        TEXT += f"» **🇵𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.11.3`\n"
-        TEXT += f"» **🇵𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
+        TEXT += f"» **𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [⛈𝐎𝐗𝐘𝐆𝐄𝐍⛈](https://t.me/OXEGN) **\n\n"
+        TEXT += f"» **𝐁𝐎𝐓𝐒 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `M3.3`\n"
+        TEXT += f"» **𝐏𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.11.3`\n"
+        TEXT += f"» **𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
                     "https://telegra.ph/file/8ddf52cffb05a6107ab27.jpg",
