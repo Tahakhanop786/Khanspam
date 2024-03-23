@@ -1,19 +1,23 @@
-from telethon import version, events, Button
+from telethon import __version__, events, Button
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
+
 START_BUTTON = [
     [
-        Button.inline("COMMNDS", data="help_back")
+        Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="help_back")
     ],
     [
-        Button.url("CHANNEL", "https://t.me/BWANDARLOK"),
-        Button.url("SUPPORT", "https://t.me/PRADHAN474")
+        Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/OXEGN"),
+        Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/+XpL0qhdF7TQzNDVl")
     ],
     [
-        Button.url("REPO", "https://github.com/PRADHAN474/ALSPSM")
+        Button.url("★𝗖𝗢𝗗𝗘𝗥★", "https://t.me/PRADHAN474")
+
+        
     ]
 ]
+
 
 @X1.on(events.NewMessage(pattern="/start"))
 @X2.on(events.NewMessage(pattern="/start"))
@@ -21,6 +25,7 @@ START_BUTTON = [
 @X4.on(events.NewMessage(pattern="/start"))
 @X5.on(events.NewMessage(pattern="/start"))
 @X6.on(events.NewMessage(pattern="/start"))
+@X7.on(events.NewMessage(pattern="/start"))
 @X7.on(events.NewMessage(pattern="/start"))
 @X8.on(events.NewMessage(pattern="/start"))
 @X9.on(events.NewMessage(pattern="/start"))
@@ -30,16 +35,14 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = (
-            f"Hey [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nI am [{bot_name}](tg://user?id={bot_id})\n"
-            f"My developer: [𝗢𝗫𝗬𝗚𝗘𝗡](https://t.me/PRADHAN474)\n"
-            f"Xbots version: M3.3\n"
-            f"Python version: 3.11.3\n"
-            f"Telethon version: {version}\n"
-        )
+        TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+        TEXT += f"» **🇲𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [⛈🇴𝐗𝐘𝐆𝐄𝐍⛈](https://t.me/OXEGN) **\n\n"
+        TEXT += f"» **🇧𝐎𝐓𝐒 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `M3.3`\n"
+        TEXT += f"» **🇵𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.11.3`\n"
+        TEXT += f"» **🇵𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/4817f954943e137e0413c.jpg",
+                    "https://telegra.ph/file/8ddf52cffb05a6107ab27.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
