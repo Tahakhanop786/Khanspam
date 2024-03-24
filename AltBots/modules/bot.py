@@ -24,8 +24,8 @@ async def ping(e):
         jarvis = await e.reply(f" 🇴𝗫𝗬𝗚𝗘𝗡")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        sender_entity = await client.get_entity(e.sender_id)
-        await jarvis.edit(f"𝐎𝐗𝐘𝐆𝐄𝐍🤖\n» `{mp} ᴍꜱ`\n\n: [{sender_entity.first_name}](tg://user?id={sender_entity.id})")
+        await jarvis.edit(f"🇴𝗫𝗬𝗚𝗘𝗡🤖\n» `{mp} ᴍꜱ`")
+
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
