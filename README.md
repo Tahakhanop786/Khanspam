@@ -1,11 +1,11 @@
-<h1 align="center"><b>[✨🥀] ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 [✨🥀]</b></h1>
+<h1 align="center"><b>[✨🥀] ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧 [✨🥀]</b></h1>
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/BWANDARLOK"><img src="https://te.legra.ph/file/7bc5551374ee010ba57d2.jpg" width="400"></a></p>0
+<p align="center"><a href="https://t.me/BWANDARLOK"><img src="[https://te.legra.ph/file/7bc5551374ee010ba57d2.jpg](https://telegra.ph/file/6c32d6bff1244f0972640.jpg)" width="400"></a></p>0
 
 
-> ⭐️ Thanks to everyone for using this op ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍. That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using this op ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧. That is the greatest pleasure we have !
 
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
