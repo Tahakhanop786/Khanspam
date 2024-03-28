@@ -7,11 +7,11 @@ START_BUTTON = [
         Button.inline("COMMNDS", data="help_back")
     ],
     [
-        Button.url("CHANNEL", "https://t.me/BWANDARLOK"),
-        Button.url("SUPPORT", "https://t.me/PRADHAN474")
+        Button.url("CHANNEL", "https://t.me/indianlok"),
+        Button.url("SUPPORT", "https://t.me/Taha_khan_op")
     ],
     [
-        Button.url("REPO", "https://github.com/PRADHAN474/ALSPSM")
+        Button.url("REPO", "https://github.com/Tahakhanop786/Khanspam")
     ]
 ]
 
@@ -32,14 +32,14 @@ async def start(event):
         bot_id = AltBot.id
         TEXT = (
             f"Hey [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nI am [{bot_name}](tg://user?id={bot_id})\n"
-            f"My developer: [𝗢𝗫𝗬𝗚𝗘𝗡](https://t.me/PRADHAN474)\n"
+            f"My developer: [TAHA](https://t.me/Taha_khan_op)\n"
             f"Xbots version: M3.3\n"
             f"Python version: 3.11.3\n"
             f"Telethon version: {version}\n"
         )
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/4817f954943e137e0413c.jpg",
+                    "https://telegra.ph/file/bdb11a28963a9047064cf.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
