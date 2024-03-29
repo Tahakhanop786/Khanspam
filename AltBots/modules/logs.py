@@ -42,7 +42,8 @@ async def logs(legend):
         fetch = await legend.reply(f"__Fetching Logs...__")
     
         with open("AltLogs.txt", "w") as logfile:
-            logfile.write("🥀✨𝐓𝐀𝐇𝐀_𝐗_𝐒𝐏𝐀𝐌✨🥀") [ Bot Logs ]\n\n" + logs)
+            logfile.write("🦋⃟ ᴠ‌ɪ‌ᴘ‌Taha khan•─‌⃛≛⃝🦅༆𝐗𝐃𐏓 ⃪༏‌⃪🔥᪵᪳❛ [ Bot Logs ]\n\n" + logs)
+  
 
         end = datetime.now()
         ms = (end-start).seconds
