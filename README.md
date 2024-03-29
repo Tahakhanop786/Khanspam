@@ -2,7 +2,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/BWANDARLOK"><img src="https://te.legra.ph/file/7bc5551374ee010ba57d2.jpg" width="400"></a></p>0
+<p align="center"><a href="https://t.me/BWANDARLOK"><img src="https://telegra.ph/file/8a8f44c91445f9e67159e.jpg" width="400"></a></p>0
 
 
 > ⭐️ Thanks to everyone for using this op ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍. That is the greatest pleasure we have !
