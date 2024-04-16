@@ -2,7 +2,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/indianlok"><img src="https://telegra.ph/file/8a8f44c91445f9e67159e.jpg" width="400"></a></p>0
+<p align="center"><a href="https://t.me/Chatting_support_group"><img src="https://telegra.ph/file/fff0c530406fcd3e2228a.jpg" width="400"></a></p>0
 
 
 > ⭐️ Thanks to everyone for using this op Taha Khan. That is the greatest pleasure we have !
