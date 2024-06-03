@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦", data="extra")
     ],
     [
-      Button.url("𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥", "https://t.me/Taha_khan_op"),
-      Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/indianlok")
+      Button.url("𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥", "https://t.me/AVG_TAHA"),
+      Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/MID_NIGHT_CHAT")
     ]
   ]
 
@@ -136,8 +136,8 @@ async def helpback(event):
                 Button.inline("𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦", data="extra")
               ],
               [
-                Button.url("Taha", "https://t.me/Taha_khan_op"),
-                Button.url("𝗠𝗬 𝗚𝗥𝗢𝗨𝗣", "https://t.me/indianlok")
+                Button.url("Taha", "https://t.me/AVG_TAHA"),
+                Button.url("SUPPORT", "https://t.me/MID_NIGHT_CHAT")
               ]
             ]
           )
